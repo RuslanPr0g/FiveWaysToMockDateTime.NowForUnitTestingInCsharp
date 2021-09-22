@@ -56,4 +56,4 @@ The final approach is to leave the application logic as is and use the Pose libr
 - The DateTime type will be used implicitly in the application logic.
 <br />
 
-# We’ve looked at 5 different approaches to achieving the same goal, with the pros and cons.
+#### We’ve looked at 5 different approaches to achieving the same goal, with the pros and cons.
