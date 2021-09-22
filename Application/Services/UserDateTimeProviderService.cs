@@ -5,9 +5,9 @@ namespace Application.Services
 {
     public class UserDateTimeProviderService
     {
-        public UserDateTimeProviderService(DateTimeProvider dateTimeProvider)
+        public UserDateTimeProviderService(SingleProviderDateTimeProvider singleProviderDateTimeProvider)
         {
-            CreatedAt = dateTimeProvider.Now;
+            CreatedAt = singleProviderDateTimeProvider.Now;
         }
 
         public DateTime CreatedAt { get; }

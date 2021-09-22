@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleDateTimeProviderClass
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbientContextPatternExample", "AmbientContextPatternExample\AmbientContextPatternExample.csproj", "{6684D78F-7AC1-4E7D-B50E-CCA36B03EE21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneLineWrapperExample", "OneLineWrapperExample\OneLineWrapperExample.csproj", "{C15D8591-AE12-4C3C-921E-FFC90657E598}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,10 +40,15 @@ Global
 		{6684D78F-7AC1-4E7D-B50E-CCA36B03EE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6684D78F-7AC1-4E7D-B50E-CCA36B03EE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6684D78F-7AC1-4E7D-B50E-CCA36B03EE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15D8591-AE12-4C3C-921E-FFC90657E598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15D8591-AE12-4C3C-921E-FFC90657E598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15D8591-AE12-4C3C-921E-FFC90657E598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15D8591-AE12-4C3C-921E-FFC90657E598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CB8B455D-1531-4CF9-B140-F32B7B5EB909} = {247F4632-63C9-444A-B901-EBB8E03FA762}
 		{6B3E51F0-E20F-4FA9-B7AC-785AF714E319} = {247F4632-63C9-444A-B901-EBB8E03FA762}
 		{6684D78F-7AC1-4E7D-B50E-CCA36B03EE21} = {247F4632-63C9-444A-B901-EBB8E03FA762}
+		{C15D8591-AE12-4C3C-921E-FFC90657E598} = {247F4632-63C9-444A-B901-EBB8E03FA762}
 	EndGlobalSection
 EndGlobal

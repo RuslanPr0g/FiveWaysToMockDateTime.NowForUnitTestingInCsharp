@@ -10,7 +10,7 @@ namespace SingleDateTimeProviderClassExample
         [Fact]
         public void UserCreated()
         {
-            var user = new UserDateTimeProviderService(new DateTimeProvider(new DateTime(2021, 07, 20)));
+            var user = new UserDateTimeProviderService(new SingleProviderDateTimeProvider(new DateTime(2021, 07, 20)));
             Assert.Equal(new DateTime(2021, 07, 20), user.CreatedAt);
         }
     }
