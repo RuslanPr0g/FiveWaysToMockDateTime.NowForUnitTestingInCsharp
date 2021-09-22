@@ -3,9 +3,9 @@ using Application.Providers;
 
 namespace Application.Services
 {
-    public class UserService
+    public class UserIDateTimeProviderService
     {
-        public UserService(IDateTimeProvider dateTimeProvider)
+        public UserIDateTimeProviderService(IDateTimeProvider dateTimeProvider)
         { 
             CreatedAt = dateTimeProvider.GetNow();
         }

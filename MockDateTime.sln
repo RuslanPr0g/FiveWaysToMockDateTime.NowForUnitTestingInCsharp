@@ -4,9 +4,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockDateTime", "MockDateTim
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{247F4632-63C9-444A-B901-EBB8E03FA762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeMocking", "DateTimeMocking\DateTimeMocking.csproj", "{CB8B455D-1531-4CF9-B140-F32B7B5EB909}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDateTimeProviderExample", "IDateTimeProviderExample\IDateTimeProviderExample.csproj", "{CB8B455D-1531-4CF9-B140-F32B7B5EB909}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{68B375BD-68BE-4C85-8A13-5498FF994DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleDateTimeProviderClassExample", "SingleDateTimeProviderClassExample\SingleDateTimeProviderClassExample.csproj", "{6B3E51F0-E20F-4FA9-B7AC-785AF714E319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbientContextPatternExample", "AmbientContextPatternExample\AmbientContextPatternExample.csproj", "{6684D78F-7AC1-4E7D-B50E-CCA36B03EE21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,8 +30,18 @@ Global
 		{68B375BD-68BE-4C85-8A13-5498FF994DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68B375BD-68BE-4C85-8A13-5498FF994DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68B375BD-68BE-4C85-8A13-5498FF994DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3E51F0-E20F-4FA9-B7AC-785AF714E319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3E51F0-E20F-4FA9-B7AC-785AF714E319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3E51F0-E20F-4FA9-B7AC-785AF714E319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3E51F0-E20F-4FA9-B7AC-785AF714E319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6684D78F-7AC1-4E7D-B50E-CCA36B03EE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6684D78F-7AC1-4E7D-B50E-CCA36B03EE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6684D78F-7AC1-4E7D-B50E-CCA36B03EE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6684D78F-7AC1-4E7D-B50E-CCA36B03EE21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CB8B455D-1531-4CF9-B140-F32B7B5EB909} = {247F4632-63C9-444A-B901-EBB8E03FA762}
+		{6B3E51F0-E20F-4FA9-B7AC-785AF714E319} = {247F4632-63C9-444A-B901-EBB8E03FA762}
+		{6684D78F-7AC1-4E7D-B50E-CCA36B03EE21} = {247F4632-63C9-444A-B901-EBB8E03FA762}
 	EndGlobalSection
 EndGlobal

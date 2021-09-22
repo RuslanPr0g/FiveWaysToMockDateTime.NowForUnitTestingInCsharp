@@ -28,6 +28,7 @@ namespace MockDateTime
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IDateTimeProvider, RealDateTimeProvider>();
+            services.AddScoped<DateTimeProvider>();
             
             services.AddControllers();
             services.AddSwaggerGen(c =>
