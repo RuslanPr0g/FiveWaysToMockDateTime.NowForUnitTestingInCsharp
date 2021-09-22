@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockDateTime", "MockDateTime\MockDateTime.csproj", "{953844AD-9A6E-40A6-B12F-874345697851}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{247F4632-63C9-444A-B901-EBB8E03FA762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeMocking", "DateTimeMocking\DateTimeMocking.csproj", "{CB8B455D-1531-4CF9-B140-F32B7B5EB909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{68B375BD-68BE-4C85-8A13-5498FF994DC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,16 @@ Global
 		{953844AD-9A6E-40A6-B12F-874345697851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{953844AD-9A6E-40A6-B12F-874345697851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{953844AD-9A6E-40A6-B12F-874345697851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8B455D-1531-4CF9-B140-F32B7B5EB909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8B455D-1531-4CF9-B140-F32B7B5EB909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8B455D-1531-4CF9-B140-F32B7B5EB909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8B455D-1531-4CF9-B140-F32B7B5EB909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B375BD-68BE-4C85-8A13-5498FF994DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B375BD-68BE-4C85-8A13-5498FF994DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B375BD-68BE-4C85-8A13-5498FF994DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B375BD-68BE-4C85-8A13-5498FF994DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB8B455D-1531-4CF9-B140-F32B7B5EB909} = {247F4632-63C9-444A-B901-EBB8E03FA762}
 	EndGlobalSection
 EndGlobal
