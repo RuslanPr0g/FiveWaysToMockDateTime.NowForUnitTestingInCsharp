@@ -5,8 +5,8 @@
 ## IDateTimeProvider Interface
 One of the most common approaches is to introduce an interface that the application logic will use instead of the direct use of DateTime.Now property. <br />
 ### Pros:
-The IDateTimeProvider dependency is an explicit one. To understand whether a particular class works with the IDateTimeProvider, developers just need to look at the class constructor. There is no need to analyze the rest of the class logic.<br />
-It is more natural to have a method that returns the current DateTime than a property. Typically, when C# developers call the same property multiple times, they expect to get the same value.
+- The IDateTimeProvider dependency is an explicit one. To understand whether a particular class works with the IDateTimeProvider, developers just need to look at the class constructor. There is no need to analyze the rest of the class logic.<br />
+- It is more natural to have a method that returns the current DateTime than a property. Typically, when C# developers call the same property multiple times, they expect to get the same value.
 ### Cons:
 Many class constructors across all codebase will have an additional IDateTimeProvider parameter in the list that pollutes the code.
 It is necessary to register the interface and implementation in the DI- container.<br />
